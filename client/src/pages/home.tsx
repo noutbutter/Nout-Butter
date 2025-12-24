@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto">
+        <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto pt-32">
           <span className="inline-block py-1 px-3 border border-white/30 rounded-full text-xs font-bold tracking-widest uppercase mb-6 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4 duration-1000">
             Small Batch • Stone Ground
           </span>
