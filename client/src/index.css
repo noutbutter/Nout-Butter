@@ -39,7 +39,7 @@
   --radius-md: 0.5rem;
   --radius-lg: 1rem;
   
-  --animate-marquee: marquee 50s linear infinite;
+  --animate-marquee: marquee 100s linear infinite;
 
   @keyframes marquee {
     from { transform: translateX(0); }
