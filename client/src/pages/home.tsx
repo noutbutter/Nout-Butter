@@ -7,7 +7,7 @@ import { products, reviews } from "@/lib/data";
 import { ArrowRight, Star } from "lucide-react";
 
 // Asset Imports
-import heroBg from "@assets/generated_images/artistic_swirl_of_black_sesame_and_chili_nut_butter.png";
+import heroBg from "@assets/generated_images/black_sesame_paste_texture_and_color_background.png";
 import sesameImg from "@assets/generated_images/jar_of_black_sesame_butter.png";
 import misoImg from "@assets/generated_images/jar_of_miso_cashew_butter.png";
 import chiliImg from "@assets/generated_images/jar_of_chili_peanut_crisp_butter.png";
