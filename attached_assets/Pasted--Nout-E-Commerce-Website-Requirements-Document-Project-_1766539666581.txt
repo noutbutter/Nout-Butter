@@ -1,0 +1,233 @@
+# Nout E-Commerce Website - Requirements Document
+
+## Project Overview
+Build a clean, modern, and bold e-commerce website for Nout, a niche cognitive enhancement product. The site should create a lasting impression on consumers through striking design and seamless user experience.
+
+## Design Inspiration & Brand Direction
+Taking cues from: Nguyen Coffee Supply, The Cumin Club, Pika Pika, Yishi Foods
+
+**Key aesthetic principles:**
+- Bold typography with strong hierarchies
+- Vibrant, memorable color palettes
+- High-quality product photography with editorial feel
+- Generous white space for breathing room
+- Cultural authenticity and storytelling
+- Premium yet approachable positioning
+
+## Technical Stack Recommendations
+- **Frontend:** React with Next.js for SEO and performance
+- **Styling:** Tailwind CSS for rapid, modern design
+- **E-commerce:** Shopify integration or Stripe for payments
+- **Hosting:** Vercel (seamless Next.js deployment)
+- **CMS:** Sanity.io or Contentful for product content management
+
+## Core Features & Functionality
+
+### 1. Homepage
+- **Hero Section:** Full-width, bold headline with high-impact product imagery or video
+- **Value Proposition:** Clear, concise messaging about what Nout is and why it matters
+- **Product Showcase:** Featured products with compelling visuals
+- **Social Proof:** Customer testimonials, reviews, or press mentions
+- **Educational Content:** Brief section on cognitive enhancement/product benefits
+- **Newsletter Signup:** Prominent email capture for marketing
+
+### 2. Product Pages
+- **High-Quality Images:** Multiple angles, lifestyle shots, detailed close-ups with zoom capability
+- **Product Information:**
+  - Clear pricing with any subscription options
+  - Detailed descriptions with benefits-focused copy
+  - Ingredients/supplement facts panel
+  - Usage instructions
+  - Science/research backing (if applicable)
+- **Add to Cart:** Prominent, friction-free purchase flow
+- **Quantity Selector:** Easy to adjust order quantities
+- **Reviews Section:** Customer ratings and written reviews
+- **FAQ Accordion:** Common questions answered inline
+- **Cross-sells/Upsells:** "You might also like" recommendations
+
+### 3. Shopping Experience
+- **Cart:**
+  - Slide-out cart drawer (non-intrusive)
+  - Easy quantity adjustments
+  - Clear pricing breakdown
+  - Progress indicators for free shipping thresholds
+- **Checkout:**
+  - Guest checkout option
+  - Saved payment methods for returning customers
+  - Multiple payment options (credit card, PayPal, Apple Pay, Google Pay)
+  - Address autocomplete
+  - Order summary visible throughout
+- **Subscription Options:** If applicable, recurring purchase options with savings
+
+### 4. About/Story Page
+- **Brand Narrative:** Why Nout exists, the founder's story
+- **Mission & Values:** What the brand stands for
+- **Product Development:** How products are created/sourced
+- **Team:** Faces behind the brand (builds trust)
+- **Visual Storytelling:** Mix of text, imagery, and potentially video
+
+### 5. Blog/Educational Content
+- **Articles:** SEO-optimized content about cognitive health, productivity, wellness
+- **Categories:** Easy navigation by topic
+- **Author Profiles:** Build authority and trust
+- **Social Sharing:** Enable easy content distribution
+
+### 6. Customer Account Area
+- **Order History:** View past purchases
+- **Subscription Management:** Modify, pause, or cancel subscriptions
+- **Saved Addresses:** Quick checkout for repeat customers
+- **Wishlist:** Save products for later
+
+### 7. Mobile Experience
+- **Fully Responsive:** Optimized for all screen sizes
+- **Touch-Friendly:** Large tap targets, swipeable galleries
+- **Fast Loading:** Optimized images and code splitting
+- **Mobile-First Design:** Primary experience designed for mobile
+
+## Design System Specifications
+
+### Typography
+- **Logo Font:** Roca Two
+- **Body Font:** TT Chocolates (all body text, paragraphs, descriptions)
+- **Headline Font:** TT Chocolates Bold/Heavy weights for headings (maintaining brand consistency)
+- **Accent/Label Font:** TT Norms Pro (for labels, tags, navigation, buttons, pricing, and micro-copy)
+  - Alternative: Graphik (if TT Norms Pro unavailable)
+  - Rationale: TT Norms Pro shares the same foundry as TT Chocolates, ensuring cohesion while providing functional clarity for UI elements
+- **Scale:** Clear hierarchy from H1 (48-72px) down to body (16-18px)
+- **Line Height:** Generous (1.6-1.8 for readability)
+- **Font Loading:** Ensure custom fonts are optimized (woff2 format) and use font-display: swap to prevent layout shift
+
+### Color Palette
+- **Primary Brand Color:** Bold, memorable (inspired by reference brands' vibrant choices)
+- **Secondary Color:** Complementary accent
+- **Neutral Base:** Warm whites/off-whites, sophisticated grays
+- **Accent Colors:** For CTAs, highlights, success/error states
+- **Ensure WCAG AA contrast compliance**
+
+### Layout & Spacing
+- **Grid System:** 12-column responsive grid
+- **Max Content Width:** 1400-1600px for readability
+- **Section Padding:** Ample vertical spacing (80-120px desktop, 40-60px mobile)
+- **Component Spacing:** Consistent spacing scale (8px base unit)
+
+### Imagery
+- **Product Photos:** Professional, well-lit, consistent styling
+- **Lifestyle Photography:** Real people using products in authentic settings
+- **Image Optimization:** WebP format with fallbacks, lazy loading
+- **Aspect Ratios:** Consistent across similar content types
+
+### Interactive Elements
+- **Buttons:**
+  - Primary: Bold, high-contrast CTA buttons
+  - Secondary: Outlined or subtle background variants
+  - Hover states with smooth transitions
+- **Animations:** Subtle micro-interactions (fade-ins, hover effects)
+- **Loading States:** Skeleton screens or elegant spinners
+
+## Performance Requirements
+- **Page Load Speed:** Under 3 seconds on 3G
+- **Core Web Vitals:**
+  - LCP (Largest Contentful Paint): <2.5s
+  - FID (First Input Delay): <100ms
+  - CLS (Cumulative Layout Shift): <0.1
+- **Image Optimization:** Compressed, properly sized, next-gen formats
+- **Code Splitting:** Load only necessary JavaScript
+
+## SEO & Marketing
+
+### Technical SEO
+- **Meta Tags:** Unique titles and descriptions for all pages
+- **Structured Data:** Product schema markup for rich results
+- **XML Sitemap:** Auto-generated and submitted
+- **Robots.txt:** Properly configured
+- **Canonical URLs:** Prevent duplicate content issues
+- **Alt Text:** All images properly described
+
+### Marketing Integration
+- **Analytics:** Google Analytics 4 or Plausible
+- **Email Marketing:** Integration with Klaviyo, Mailchimp, or similar
+- **Social Media Pixels:** Facebook, Instagram, TikTok tracking
+- **Conversion Tracking:** Goal and e-commerce tracking setup
+
+## Accessibility Requirements
+- **WCAG 2.1 AA Compliance**
+- **Keyboard Navigation:** All interactive elements accessible
+- **Screen Reader Support:** Semantic HTML, ARIA labels where needed
+- **Focus Indicators:** Clear visual focus states
+- **Color Contrast:** Minimum 4.5:1 for normal text
+- **Form Labels:** Clear, associated labels for all inputs
+
+## Security & Trust
+- **SSL Certificate:** HTTPS throughout
+- **PCI Compliance:** For payment processing
+- **Privacy Policy:** Clear, accessible privacy documentation
+- **Terms of Service:** Legal protections in place
+- **Trust Badges:** Display security and payment badges
+- **Customer Service Info:** Prominent contact information
+
+## Content Requirements
+
+### Copy Tone & Voice
+- **Confident:** Assert the product's value without overselling
+- **Clear:** Avoid jargon, explain benefits simply
+- **Authentic:** Human, relatable language
+- **Educational:** Inform rather than just sell
+- **Inclusive:** Welcoming to all potential customers
+
+### Product Descriptions
+- Lead with benefits, not features
+- Use sensory, evocative language
+- Include technical specifications where relevant
+- Address common objections preemptively
+
+### Calls to Action
+- Action-oriented (e.g., "Boost Your Focus" vs. "Buy Now")
+- Create urgency when appropriate (limited stock, special offers)
+- Clear value proposition in CTA text
+
+## Launch Checklist
+- [ ] All pages responsive across devices
+- [ ] Payment processing tested end-to-end
+- [ ] Email notifications configured (order confirmation, shipping, etc.)
+- [ ] Analytics and tracking verified
+- [ ] SEO elements in place (meta tags, sitemap, etc.)
+- [ ] Accessibility audit completed
+- [ ] Page speed optimization verified
+- [ ] Legal pages published (Privacy, Terms, Refunds)
+- [ ] 404 and error pages designed
+- [ ] Cross-browser testing completed
+- [ ] SSL certificate active
+- [ ] Backup and security measures in place
+
+## Future Enhancements (Phase 2)
+- Customer loyalty/rewards program
+- Product quiz/recommendation engine
+- Referral program
+- Advanced personalization
+- AR product visualization
+- User-generated content gallery
+- Community forum or discussion area
+- Subscription box customization
+
+## Success Metrics
+- **Conversion Rate:** % of visitors who complete purchase
+- **Average Order Value:** Revenue per transaction
+- **Cart Abandonment Rate:** % of initiated checkouts not completed
+- **Bounce Rate:** % of single-page sessions
+- **Page Load Speed:** Time to interactive
+- **Customer Lifetime Value:** Long-term revenue per customer
+
+---
+
+## Getting Started with Replit
+
+1. **Choose Template:** Next.js + Tailwind CSS starter
+2. **Set Up Environment Variables:** API keys for Stripe, email service, etc.
+3. **Install Dependencies:** Additional packages as needed
+4. **Configure Routing:** Set up page structure
+5. **Integrate Payment Gateway:** Connect Stripe or preferred processor
+6. **Build Component Library:** Reusable buttons, cards, forms
+7. **Implement Product Data:** Connect to CMS or create local data structure
+8. **Test Thoroughly:** User flows, responsive design, edge cases
+
+Good luck building Nout!
