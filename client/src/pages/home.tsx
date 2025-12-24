@@ -41,7 +41,7 @@ export default function Home() {
             Small Batch • Stone Ground
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-black leading-[0.9] tracking-tight mb-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
-            CULTURALLY ROOTED.<br />BOLDLY MODERN.
+            ROOTED IN HERITAGE.<br />MADE TO SHARE.
           </h1>
           <p className="text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 text-white/90 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300">
             The next generation of nut butters. Asian heritage flavors, stone-ground to perfection for the modern palate.
