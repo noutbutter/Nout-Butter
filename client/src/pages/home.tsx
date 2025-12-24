@@ -44,7 +44,7 @@ export default function Home() {
             ROOTED IN HERITAGE.<br />MADE TO SHARE.
           </h1>
           <p className="text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 text-white/90 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300">
-            The next generation of nut butters. Asian heritage flavors, stone-ground to perfection for the modern palate.
+            The next generation of nut butters. Bold Asian flavors that honor tradition and defy expectations.
           </p>
           <div className="animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500">
             <Link href="/shop">
