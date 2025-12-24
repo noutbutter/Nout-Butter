@@ -118,9 +118,9 @@ export default function Home() {
             </div>
           </div>
           <div className="order-1 md:order-2 space-y-8">
-            <span className="text-accent font-bold tracking-widest uppercase">Our Philosophy</span>
+            <span className="bg-primary text-white font-bold tracking-widest uppercase px-4 py-2 inline-block rounded">Our Philosophy</span>
             <h2 className="text-4xl md:text-6xl font-display font-black leading-tight">
-              MORE THAN JUST<br /><span className="text-primary">NUT BUTTER.</span>
+              MORE THAN JUST<br /><span className="bg-primary text-white px-2 py-1 inline-block">NUT BUTTER.</span>
             </h2>
             <p className="text-lg text-secondary-foreground/80 leading-relaxed">
               We started Nout with a simple question: why are nut butter flavors so... beige?
