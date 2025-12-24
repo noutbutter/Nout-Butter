@@ -56,17 +56,13 @@ export default function Home() {
       {/* Marquee Separator */}
       <div className="bg-secondary py-6 border-y border-white/10">
         <Marquee className="text-secondary-foreground font-display font-bold text-2xl uppercase tracking-widest opacity-80">
-          <span>Asian Inspired</span>
-          <span>•</span>
-          <span>Stone Ground</span>
-          <span>•</span>
-          <span>No Palm Oil</span>
-          <span>•</span>
-          <span>Bold Flavors</span>
+          <span>No Seed Oils or Preservatives</span>
           <span>•</span>
           <span>Small Batch</span>
           <span>•</span>
-          <span>Heritage Ingredients</span>
+          <span>Real Ingredients Only</span>
+          <span>•</span>
+          <span>No Fillers</span>
           <span>•</span>
         </Marquee>
       </div>
