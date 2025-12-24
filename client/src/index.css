@@ -7,33 +7,33 @@
   --font-display: 'Fraunces', serif;
   --font-body: 'Outfit', sans-serif;
 
-  --color-background: hsl(40 20% 97%);
-  --color-foreground: hsl(240 10% 15%);
+  --color-background: hsl(0 0% 98%);
+  --color-foreground: hsl(0 0% 12%);
   
   --color-card: hsl(0 0% 100%);
-  --color-card-foreground: hsl(240 10% 15%);
+  --color-card-foreground: hsl(0 0% 12%);
   
   --color-popover: hsl(0 0% 100%);
-  --color-popover-foreground: hsl(240 10% 15%);
+  --color-popover-foreground: hsl(0 0% 12%);
   
-  --color-primary: hsl(15 85% 55%); /* Vibrant Burnt Orange */
-  --color-primary-foreground: hsl(40 20% 97%);
+  --color-primary: hsl(2 85% 45%); /* Deep Mahjong Red */
+  --color-primary-foreground: hsl(0 0% 100%);
   
-  --color-secondary: hsl(240 10% 15%); /* Dark Sesame Charcoal */
-  --color-secondary-foreground: hsl(40 20% 97%);
+  --color-secondary: hsl(219 70% 30%); /* Royal Mahjong Blue */
+  --color-secondary-foreground: hsl(0 0% 100%);
   
-  --color-muted: hsl(40 10% 90%);
-  --color-muted-foreground: hsl(240 5% 40%);
+  --color-muted: hsl(0 0% 88%);
+  --color-muted-foreground: hsl(0 0% 45%);
   
-  --color-accent: hsl(90 30% 60%); /* Miso/Matcha Green */
-  --color-accent-foreground: hsl(240 10% 15%);
+  --color-accent: hsl(2 85% 45%); /* Deep Red Accent */
+  --color-accent-foreground: hsl(0 0% 100%);
   
   --color-destructive: hsl(0 84% 60%);
   --color-destructive-foreground: hsl(0 0% 98%);
   
-  --color-border: hsl(240 5% 85%);
-  --color-input: hsl(240 5% 85%);
-  --color-ring: hsl(15 85% 55%);
+  --color-border: hsl(0 0% 85%);
+  --color-input: hsl(0 0% 90%);
+  --color-ring: hsl(2 85% 45%);
   
   --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
