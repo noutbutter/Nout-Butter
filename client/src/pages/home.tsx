@@ -123,10 +123,9 @@ export default function Home() {
               MORE THAN JUST<br /><span className="bg-primary text-white px-2 py-1 inline-block">NUT BUTTER.</span>
             </h2>
             <p className="text-lg text-secondary-foreground/80 leading-relaxed">
-              We started Nout with a simple question: why are nut butter flavors so... beige?
+              We started Nout to solve a personal problem: how do we make something delicious without compromising health?
               <br /><br />
-              Drawing from our heritage, we infuse premium nuts with bold Asian ingredients like
-              earthy black sesame, umami-rich miso, and fiery chili crisp. No fillers, just flavor.
+              Drawing from May's Asian heritage and navigating Dave's autoimmune journey, we created nut butters you can feel truly good about eating.
             </p>
             <Button variant="link" className="text-white p-0 h-auto text-lg hover:text-primary transition-colors">
               Read our full story &rarr;
