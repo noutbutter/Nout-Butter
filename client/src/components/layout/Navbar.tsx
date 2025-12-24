@@ -10,8 +10,8 @@ export function Navbar() {
 
   const links = [
     { href: "/shop", label: "Shop" },
-    { href: "/about", label: "About" },
-    { href: "/journal", label: "Journal" },
+    { href: "/about", label: "Our Story" },
+    { href: "/journal", label: "Recipes" },
   ];
 
   return (
