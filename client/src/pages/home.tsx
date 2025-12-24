@@ -37,7 +37,7 @@ export default function Home() {
 
         {/* Hero Content */}
         <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto pt-32">
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-black leading-[0.9] tracking-tight mb-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-display font-black leading-[0.9] tracking-tight mb-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
             ROOTED IN HERITAGE.<br />MADE TO SHARE.
           </h1>
           <p className="text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 text-white/90 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300">
