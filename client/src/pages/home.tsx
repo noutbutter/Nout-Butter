@@ -9,13 +9,13 @@ import { ArrowRight, Star } from "lucide-react";
 // Asset Imports
 import heroBg from "@assets/generated_images/black_sesame_paste_texture_and_color_background.png";
 import sesameImg from "@assets/generated_images/jar_of_black_sesame_butter.png";
-import misoImg from "@assets/generated_images/jar_of_miso_cashew_butter.png";
-import chiliImg from "@assets/generated_images/jar_of_chili_peanut_crisp_butter.png";
+import matchaImg from "@assets/generated_images/jar_of_matcha_nut_butter.png";
+import ubeImg from "@assets/generated_images/jar_of_ube_nut_butter.png";
 
 const imageMap: Record<string, string> = {
   "product-sesame": sesameImg,
-  "product-miso": misoImg,
-  "product-chili": chiliImg,
+  "product-matcha": matchaImg,
+  "product-ube": ubeImg,
 };
 
 export default function Home() {
@@ -91,9 +91,17 @@ export default function Home() {
                     alt={product.name}
                     className="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700 ease-out"
                   />
-                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-black">
-                    ${product.price}
-                  </div>
+                  {product.tagline === "Coming Soon" ? (
+                    <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
+                      <span className="bg-white/90 backdrop-blur-sm px-6 py-2 rounded-full text-lg font-display font-black uppercase tracking-wider text-black shadow-xl">
+                        Coming Soon
+                      </span>
+                    </div>
+                  ) : (
+                    <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-black">
+                      ${product.price}
+                    </div>
+                  )}
                 </div>
                 <div>
                   <h3 className="text-2xl font-display font-bold mb-1 group-hover:text-primary transition-colors">{product.name}</h3>

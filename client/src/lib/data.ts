@@ -14,36 +14,36 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "black-sesame",
-    name: "Midnight Sesame",
-    tagline: "100% Black Sesame Butter",
+    name: "Black Sesame",
+    tagline: "Macadamia Nuts With Decadent Black Sesame",
     price: 18,
-    description: "A rich, nutty, and savory spread made from roasted black sesame seeds. Stone-ground for 24 hours to achieve liquid gold consistency. Perfect on toast, in smoothies, or drizzled over vanilla ice cream.",
-    ingredients: ["Roasted Black Sesame Seeds", "Touch of Maple Syrup", "Sea Salt"],
-    image: "product-sesame", // Placeholder key
+    description: "A rich, nutty, and savory spread made from roasted black sesame seeds and buttery macadamia nuts. Stone-ground for 24 hours to achieve liquid gold consistency. Perfect on toast, in smoothies, or drizzled over vanilla ice cream.",
+    ingredients: ["Roasted Black Sesame Seeds", "Macadamia Nuts", "Touch of Maple Syrup", "Sea Salt"],
+    image: "product-sesame",
     color: "bg-stone-900",
     features: ["Antioxidant Rich", "Stone Ground", "No Palm Oil"]
   },
   {
-    id: "miso-cashew",
-    name: "Golden Miso",
-    tagline: "Miso Cashew Butter",
-    price: 22,
-    description: "The perfect balance of umami and sweet. Creamy roasted cashews blended with organic white miso and a hint of wildflower honey. It's like salted caramel, but better for you.",
-    ingredients: ["Roasted Cashews", "Organic White Miso", "Wildflower Honey", "Coconut Oil"],
-    image: "product-miso", // Placeholder key
-    color: "bg-amber-200",
-    features: ["Probiotic", "Umami Bomb", "Creamy Texture"]
+    id: "matcha",
+    name: "Matcha",
+    tagline: "Coming Soon",
+    price: 0,
+    description: "Vibrant ceremonial grade matcha blended with creamy nuts. A concentrated burst of energy and antioxidants in every spoonful.",
+    ingredients: ["Roasted Cashews", "Ceremonial Grade Matcha", "Coconut Oil"],
+    image: "product-matcha",
+    color: "bg-[#4D7C0F]", // Deep Matcha Green
+    features: ["Coming Soon"]
   },
   {
-    id: "chili-crisp",
-    name: "Spicy Crunch",
-    tagline: "Chili Peanut Crisp",
-    price: 20,
-    description: "Not your childhood peanut butter. We took organic roasted peanuts and folded in our house-made szechuan chili crisp for a heat that builds. Savory, spicy, and impossibly addictive.",
-    ingredients: ["Roasted Peanuts", "Szechuan Chili Flakes", "Garlic", "Shallots", "Tamari"],
-    image: "product-chili", // Placeholder key
-    color: "bg-orange-600",
-    features: ["Medium Heat", "High Protein", "Savory"]
+    id: "ube",
+    name: "Ube",
+    tagline: "Coming Soon",
+    price: 0,
+    description: "Earthy, sweet, and vibrantly purple. Our take on the classic Filipino yam, blended into a silky nut spread.",
+    ingredients: ["Roasted Almonds", "Purple Yam (Ube)", "Coconut Milk"],
+    image: "product-ube",
+    color: "bg-[#7E22CE]", // Ube Purple
+    features: ["Coming Soon"]
   }
 ];
 
