@@ -52,18 +52,18 @@ export const reviews = [
     id: 1,
     author: "Lily C.",
     rating: 5,
-    text: "The Black Sesame butter changed my morning routine forever. It's so decadent."
+    text: "It's soooo good and so addicting"
   },
   {
     id: 2,
     author: "Calum K.",
     rating: 5,
-    text: "I eat the Chili Peanut Crisp straight from the jar. Don't judge me."
+    text: "I eat the Black Sesame straight from the jar. Don't judge me"
   },
   {
     id: 3,
     author: "Jack G.",
     rating: 5,
-    text: "Finally, a nut butter that isn't just sugar. The Miso Cashew is incredible on apples."
+    text: "This stuff is fire. The Black Sesame is a winner"
   }
 ];
