@@ -18,10 +18,10 @@ export const products: Product[] = [
     tagline: "Macadamia Nuts With Decadent Black Sesame",
     price: 18,
     description: "A rich, nutty, and savory spread made from roasted black sesame seeds and buttery macadamia nuts. Stone-ground for 24 hours to achieve liquid gold consistency. Perfect on toast, in smoothies, or drizzled over vanilla ice cream.",
-    ingredients: ["Roasted Black Sesame Seeds", "Macadamia Nuts", "Touch of Maple Syrup", "Sea Salt"],
+    ingredients: ["Macadamia Nuts", "Black Sesame", "Dates", "Vanilla Extract", "MCT Oil"],
     image: "product-sesame",
     color: "bg-stone-900",
-    features: ["Antioxidant Rich", "Stone Ground", "No Palm Oil"]
+    features: ["Antioxidant Rich", "Small Batch", "Plant Based"]
   },
   {
     id: "matcha",
