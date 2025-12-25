@@ -18,7 +18,6 @@ export function Footer() {
             <ul className="space-y-4 text-muted-foreground">
               <li><a href="#" className="hover:text-primary transition-colors">All Products</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Bundles</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Gift Cards</a></li>
             </ul>
           </div>
 
@@ -26,9 +25,8 @@ export function Footer() {
             <h4 className="font-bold mb-6 uppercase tracking-wider text-sm">Company</h4>
             <ul className="space-y-4 text-muted-foreground">
               <li><a href="#" className="hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Journal</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Recipes</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">FAQ</a></li>
             </ul>
           </div>
 
