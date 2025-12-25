@@ -50,19 +50,19 @@ export const products: Product[] = [
 export const reviews = [
   {
     id: 1,
-    author: "Sarah J.",
+    author: "Lily C.",
     rating: 5,
     text: "The Black Sesame butter changed my morning routine forever. It's so decadent."
   },
   {
     id: 2,
-    author: "Michael C.",
+    author: "Calum K.",
     rating: 5,
     text: "I eat the Chili Peanut Crisp straight from the jar. Don't judge me."
   },
   {
     id: 3,
-    author: "Elena R.",
+    author: "Jack G.",
     rating: 5,
     text: "Finally, a nut butter that isn't just sugar. The Miso Cashew is incredible on apples."
   }
